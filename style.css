@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  font-family: monospace;
+  font-size: 50px
+
+} 
+
+body {
+  min-height: 100vh;
+  padding: 24px;
+  background-image: url("https://i.pinimg.com/736x/d7/71/69/d77169a014ddb2d046cb02e2b896b735.jpg"), url("https://i.pinimg.com/736x/d7/71/69/d77169a014ddb2d046cb02e2b896b735.jpg");
+    background-position: left top, right top;
+    background-repeat: repeat-y, repeat-y;
+    background-size: 270px, 270px;
+
+
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 12px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.box {
+  margin-top: 40px;
+  background: rgba(180, 210, 230, 0.72);
+  border: 1.5px solid rgba(140, 185, 215, 0.5);
+  border-radius: 10px;
+  padding: 18px;
+  min-height: 470px;
+  font-family: monospace
+}
+
+
+.nav-title {
+
+
+
+
+}
+
+.nav-links {
+  list-style: none;
+
+}
+
+.nav-links li {
+  margin: 6px 0;
+}
+
+.nav-links a {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.page-label {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.intro {
+font-size: 13px;
+
+
+}
+
+.cafe-desc {
+margin-top: 18px;
+font-size: 16px;
+
+}
+
+.cafe-title {
+  margin-top: 14px
+}
+
+
+.profile-img {
+  width: 120px;
+  height: auto;
+  border-radius: 10px
+}
+
+.end {
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.footer {
+  font-family: monospace;
+  margin-left: 600px;
+  margin-top:100px;
+
+}
+ 
+.stars {
+  font-size: 28px;  
+  
+}
+
+.cafe-para {
+  margin-top: 10px;
+}
+
+
+@media (max-width: 600px) {
+  .layout {
+    grid-template-columns: 1fr;
+  }
+
+
